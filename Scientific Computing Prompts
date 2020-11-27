@@ -1,0 +1,31 @@
+CS 417 
+Midterm Exam
+
+	•	Use your software to find the dominant eigenvalue and the associated eigenvalue for the following matrix.
+
+
+	•	Use your Newton’s Root Solver to find a zero for  3x^3 - 15cos(x) + 3ln(x) + 2sin(x) = 0
+Use 0.5 as a first estimate then display the progression of your solution to the 4th decimal place.
+
+
+
+
+	•	Use your LU Solver to find the solution to the matrix problem labeled q3data.txt. Convert the solution vector to a  square domain and plot the surface described by that in either excel or gnuplot. Submit your surface plot of the solution.
+
+
+	•	Modify your Jacobi solver so that the user can input the number of iterations performed (it should stop if the solution to 6 decimal places is found before the iterations are complete.) Solve the matrix problem labeled q4data.txt but input the number of iterations as powers of 2 until the solution is found. So you will solve the problem with 2 iterations with a random starting vector, plot the solution. Then again with 4 iterations and plot, then again with 8 iterations..etc..Submit ALL graphs of your solutions, this should give a step by step evolution of the solution. 
+
+	•	Using ONLY backwards finite difference approximations for the first derivatives derive and write out the following finite differences assuming dx = dy = .1 
+
+	•	
+
+	•	
+
+	•	
+
+
+	•	Write out enough of the matrix based on this equation to show the structure of it.
+
+
+
+	Use standard approximations for the second derivative and forward differences for the first derivative.  The grid is a unit square with boundary conditions Q = row number k for even values of k and Q = -(row number k) for odd values of k.  Nx = 9, Ny =6. 
